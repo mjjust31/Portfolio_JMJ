@@ -10,7 +10,7 @@ Deployment Link: https://mjjust31.github.io/Portfolio_JMJ/
 Project Scope: Working with HTML and CSS together to create a first portfolio for futher work. 
 
 
-*For the boxes, I used Display: Grid as many of the same size boxes were used to create the amount of columns and rows. Still working out the grid work and placement for CSS. Working on positioning within the display:grid. 
+*For the boxes, I used Display: Grid as many of the same size boxes were used to create the amount of columns and rows. Still working out the grid work and placement for CSS. Working on positioning within the display:grid and absolution positioning with the parent element.
 
 
 Support: 
