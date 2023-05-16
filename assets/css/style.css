@@ -52,7 +52,6 @@ header nav a:link {
 
 }
 
- 
 section nav a:link {
     padding: 5px ;
     display:flex; 
@@ -69,7 +68,6 @@ nav ul {
   justify-content: space-between;
   list-style: none;
 }
-
 
 a:visited {
   color: rgb(117, 27, 87);
