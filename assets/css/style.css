@@ -21,7 +21,7 @@ main {
 }
 
 header {
-  background-color: rgb(71, 81, 81);
+  background-color:rgb(27, 53, 53); 
   display:flex;
   justify-content: space-between;
   padding: 20px;
@@ -100,17 +100,18 @@ h4 {
   position: absolute; 
   bottom : 0;
   right: 0;
-  text-decoration: underline;
   padding: 10px;
 
 }
 
 .stretchbar {
-  background-image: url("../PinkWhite.jpg");
-  background-size: cover;
+  background-image: url("../images/PinkWhite.jpg");
+  background-size: contain;
   background-position: center;
-  height: 70px;
   position: relative;
+  padding:50px;
+  margin-top:auto;
+
 }
 
 .container {
@@ -154,35 +155,35 @@ gap: 5px;
 #nested_box {
   grid-column: 1/3;
   border: 3px solid rgb(168, 210, 210);
-  background-image: url("../MainCard.jpg");
-  background-size: cover;
+  background-image: url("../images/MainCard.jpg");
+  background-size: contain;
   background-position: center;
  
 }
 
 .small_card1 {
   border: 3px solid rgb(168, 210, 210);
-  background-image: url("../Card1.jpg");
+  background-image: url("../images/Card1.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .small_card2 {
     border: 3px solid rgb(168, 210, 210);
-    background-image: url("../Card2.jpg");
+    background-image: url("../images/UpdateCard2.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .small_card3 {
-  background-image: url("../Card3.jpg");
+  background-image: url("../images/Card3.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .small_card4 {
   border: 3px solid rgb(168, 210, 210);
-  background-image: url("../UpdateCard2.jpg");
+  background-image: url("../images/Card4.jpg");
   background-size: cover;
   background-position: center;
 }
