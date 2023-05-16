@@ -1,0 +1,220 @@
+
+:root {
+--color: purple;  
+}
+
+
+body{
+  margin: 0px;
+  height: 100%;
+  background-color: rgb(168, 210, 210);
+  color: var(--color);
+  text-align: center; 
+  letter-spacing: normal;
+  font-family: sans-serif;
+  position: relative
+}
+
+main {
+  margin:0px 20px 0 0;
+  display:flex; 
+}
+
+header {
+  background-color: rgb(71, 81, 81);
+  display:flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  height: 40px;
+ 
+}
+
+h1 {
+  background-color: pink;
+    padding: 15px 40px;
+    margin:10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-style:italic;
+}
+
+header nav a:link {
+    background-color: pink;
+    margin-right: 15px; 
+    margin-top: 10px;
+    padding: 5px;
+    text-decoration: none;
+    display: inline; 
+}
+
+ 
+section nav a:link {
+    padding: 5px ;
+    display:flex; 
+    justify-content: space-between;
+    text-decoration: none;
+    font: white;
+}
+    
+img {
+    border:rgb(168, 210, 210)
+} 
+
+main section img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+nav ul {
+  display: flex; 
+ justify-content: space-between;
+
+}
+
+a:visited {
+  color: rgb(117, 27, 87);
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+  background-color: purple;
+}
+
+a:active {
+  background-color: lightblue;
+  font-style: italic
+}
+
+h3 {
+color: pink;
+text-align: right;
+font-size: 30px; 
+padding:15px;
+}
+
+h4 {
+  color: rgb(37, 35, 36);
+  text-align: bottom right;
+  position: absolute; 
+  bottom : 0;
+  right: 0;
+  text-decoration: underline;
+  padding: 10px;
+
+}
+
+.stretchbar {
+  background-image: url("../PinkWhite.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 70px;
+  position: relative;
+}
+
+.container {
+  display:grid;
+  grid-template-columns:1fr 5fr;
+  grid-template-rows: 1fr 3fr 1fr;
+  gap: 15px 20px;
+  color:rgb(238, 230, 230);
+  background-color:rgb(166, 145, 161);
+  margin: 10px 0px; 
+  padding: 5px; 
+  position: relative
+  
+}
+  
+
+.aside {
+  border-right: 5px solid rgb(50, 3, 57);
+  justify-items: center;  
+}
+
+.side_box {
+  height: 500px; 
+  border-right: 5px solid rgb(50, 3, 57);
+
+}
+
+.summary {
+  border-bottom: 1px solid rgb(168, 210, 210);
+  padding: 25px
+}
+
+.nested {
+display:grid; 
+grid-template-columns: 1fr 1fr;
+border-bottom: 1px solid rgb(168, 210, 210);
+height: 500px;
+gap: 5px; 
+}
+
+#nested_box {
+  grid-column: 1/3;
+  border: 3px solid rgb(168, 210, 210);
+  background-image: url("../MainCard.jpg");
+  background-size: cover;
+  background-position: center;
+ 
+}
+
+.small_card1 {
+  border: 3px solid rgb(168, 210, 210);
+  background-image: url("../Card1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.small_card2 {
+    border: 3px solid rgb(168, 210, 210);
+    background-image: url("../Card2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.small_card3 {
+  background-image: url("../Card3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.small_card4 {
+  border: 3px solid rgb(168, 210, 210);
+  background-image: url("../UpdateCard2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.Contact_Me {
+  display: flex;
+  justify-content: center;
+  padding: 50px; 
+  
+  
+
+}
+
+
+
+/*Media Queries **!/
+
+@media screen and (max-width: 992px) {
+  header {
+    background: #772014;
+  }
+}
+
+@media screen and (max-width: 768px) {
+ body {
+    background-color: #deff98;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+  .aside {
+    background-color: #8ac4ff;
+  }
+}
